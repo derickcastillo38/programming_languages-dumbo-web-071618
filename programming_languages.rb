@@ -10,6 +10,7 @@ def reformat_languages(languages)
           new_hash[lang] = {type: type_hash[type_symbol], style: style_arr}
           new_hash[lang][:style] << style_type
         end
+      end
     end 
   end
 
